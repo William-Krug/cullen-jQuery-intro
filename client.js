@@ -10,7 +10,11 @@ function onReady() {
 
   const h2 = $('h2');
   // make it blue
-  h2.css('background-color', 'blue');
+  // h2.css('background-color', 'blue');
   // same as ...
-  $('h2').css('background-color', 'green');
+  // $('h2').css('background-color', 'green');
+  $('h2').addClass('froggy');
+  $('h2').addClass('moarClasses');
+  $('h2').removeClass('moarClasses');
+  $('h2').toggleClass('froggy');
 }
