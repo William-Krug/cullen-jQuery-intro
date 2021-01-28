@@ -17,4 +17,13 @@ function onReady() {
   $('h2').addClass('moarClasses');
   $('h2').removeClass('moarClasses');
   $('h2').toggleClass('froggy');
+
+  // change the text (setter)
+  // $('h1').text('.....?');
+  // getter
+  const h1Text = $('h1').text();
+  console.log('h1 Text is:', h1Text);
+
+  const louderText = h1Text.toUpperCase() + '!!!!';
+  $('h1').text(louderText);
 }
