@@ -52,7 +52,7 @@ function deleteMe() {
 
 function whenIAddAHarmonica(event) {
   // event argument has special function -- keeps the page from refreshing after submitting your form
-  event.preventDefault;
+  event.preventDefault();
 
   // Stuff to do when we add a harmonica
   console.log('clicked the button');
